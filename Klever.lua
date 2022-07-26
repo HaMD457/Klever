@@ -1606,7 +1606,7 @@ data = {
 {text = '• الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'Klever TeaM .', url='https://t.me/B3B34'},
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url='https://t.me/XSURSE'},
 },
 }
 }
@@ -1803,7 +1803,7 @@ data = {
 {text = '• الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'Klever TeaM .', url='https://t.me/B3B34'},
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url='https://t.me/XSURSE'},
 },
 }
 }
@@ -2067,7 +2067,7 @@ data = {
 {text = '• الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'Klever TeaM .', url='https://t.me/B3B34'},
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url='https://t.me/XSURSE'},
 },
 }
 }
@@ -2464,7 +2464,7 @@ end
 end   
 Get_Json = Get_Json..'],'
 end
-Get_Json = Get_Json..'"Dev":"X4X43"}'
+Get_Json = Get_Json..'"Dev":"LL3MM"}'
 end
 Get_Json = Get_Json..'}}'
 local File = io.open('./'..UserBot..'.json', "w")
@@ -2519,7 +2519,7 @@ v = string.gsub(v,'"','')
 v = string.gsub(v,"'",'')
 Get_Json = Get_Json..'"'..v..'":"'..db..'",'
 end   
-Get_Json = Get_Json..'"X4X43":"ok"'
+Get_Json = Get_Json..'"LL3MM":"ok"'
 end
 Get_Json = Get_Json..'}'
 end
@@ -2542,7 +2542,7 @@ local download_ = download('https://api.telegram.org/file/bot'..Token..'/'..File
 local Get_Info = io.open(download_,"r"):read('*a')
 local Reply_Groups = JSON.decode(Get_Info) 
 for GroupId,ListGroup in pairs(Reply_Groups.GroupsBotreply) do
-if ListGroup.X4X43 == "ok" then
+if ListGroup.LL3MM == "ok" then
 for k,v in pairs(ListGroup) do
 Redis:sadd(itsKlever.."Klever:List:Manager"..GroupId,k)
 if v and v:match('gif@(.*)') then
@@ -2845,7 +2845,7 @@ data = {
 {text = '• ميمز', data = msg.sender.user_id..'/memz@'..msg_chat_id},{text = '• غنيلي', data = msg.sender.user_id..'/kne@'..msg_chat_id},
 },
 {
-{text = 'Klever TeaM .',url="https://t.me/B3B34"}
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .',url="https://t.me/XSURSE"}
 },
 }
 }
@@ -3590,7 +3590,7 @@ if text == 'رتبتي' then
 local ban = LuaTele.getUser(msg.sender.user_id)
 local news = '˛ : رتبتك هي : '..msg.Name_Controller
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {
-{{text = '˛ 𝗍𝖾𝖺𝗆 : 𝗉𝖺𝗏 .', url = 't.me/B3B34'}, },}}
+{{text = '˛ 𝗍𝖾𝖺𝗆 : 𝗉𝖺𝗏 .', url = 't.me/XSURSE'}, },}}
 return LuaTele.sendText(msg_chat_id, msg_id, news, 'md', false, false, false, false, reply_markup)
 end
 if text == "اسمي"  then
@@ -5456,7 +5456,7 @@ data = {
 {text = '• الغاء الامر • ', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'Klever TeaM .', url='https://t.me/B3B34'},
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url='https://t.me/XSURSE'},
 },
 }
 }
@@ -5917,7 +5917,7 @@ Abs = math.random(2,140);
 local Text =" [متحركات Gٍٓif ᯓ ](t.me/IUIUll9)"
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'Klever TeaM .',url="t.me/B3B34"}},
+{{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .',url="t.me/XSURSE"}},
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. msg.chat_id .. '&voice=https://t.me/https://t.me/YIY88Y/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -5952,7 +5952,7 @@ local TestText = "  ❲ Owner Groups ❳\n — — — — — — — — —\n
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = 'Klever TeaM .', url='https://t.me/B3B34'},
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url='https://t.me/XSURSE'},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -6006,7 +6006,7 @@ keyboardd.inline_keyboard = {
 {text = Creat, url = "https://t.me/"..ban.username..""},
 },
 {
-{text = 'Klever TeaM .', url='https://t.me/B3B34'},
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url='https://t.me/XSURSE'},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -6018,7 +6018,7 @@ local msg_id = msg.id/2097152/0.5
 end
 end
 if text == 'مبرمج سورس' or text == 'مبرمج السورس' or text == 'المبرمج' then  
-local UserId_Info = LuaTele.searchPublicChat("X4X43")
+local UserId_Info = LuaTele.searchPublicChat("LL3MM")
 if UserId_Info.id then
 local UserInfo = LuaTele.getUser(UserId_Info.id)
 local InfoUser = LuaTele.getUserFullInfo(UserId_Info.id)
@@ -6029,14 +6029,14 @@ Bio = ''
 end
 local photo = LuaTele.getUserProfilePhotos(UserId_Info.id)
 if photo.total_count > 0 then
-local TestText = "  Klever TeaM .\n — — — — — — — — —\n ˛ : *Dev Name* :  ["..UserInfo.first_name.."](tg://user?id="..UserId_Info.id..")\n˛ : *Dev Bio* : [❲ "..Bio.." ❳]"
+local TestText = "  ˛ ᥊-Kᥣᥱ᥎ᥱr. .\n — — — — — — — — —\n ˛ : *Dev Name* :  ["..UserInfo.first_name.."](tg://user?id="..UserId_Info.id..")\n˛ : *Dev Bio* : [❲ "..Bio.." ❳]"
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/X4X43"}
+{text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/LL3MM"}
 },
 {
-{text = 'Klever TeaM .', url='https://t.me/B3B34'},
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url='https://t.me/XSURSE'},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -6046,10 +6046,10 @@ local TestText = "- معلومات مبرمج السورس: \\nn: name Dev . [".
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/X4X43"}
+{text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/LL3MM"}
 },
 {
-{text = 'Klever TeaM .', url='https://t.me/B3B34'},
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url='https://t.me/XSURSE'},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -6069,14 +6069,14 @@ Bio = ''
 end
 local photo = LuaTele.getUserProfilePhotos(UserId_Info.id)
 if photo.total_count > 0 then
-local TestText = "  Klever TeaM .\n — — — — — — — — —\n ˛ : *Dev Name* :  ["..UserInfo.first_name.."](tg://user?id="..UserId_Info.id..")\n˛ : *Dev Bio* : [❲ "..Bio.." ❳]"
+local TestText = "  ˛ ᥊-Kᥣᥱ᥎ᥱr. .\n — — — — — — — — —\n ˛ : *Dev Name* :  ["..UserInfo.first_name.."](tg://user?id="..UserId_Info.id..")\n˛ : *Dev Bio* : [❲ "..Bio.." ❳]"
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
 {text = '❲ مطور السورس ❳', url = "https://t.me/FFFFM"}
 },
 {
-{text = 'Klever TeaM .', url='https://t.me/B3B34'},
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url='https://t.me/XSURSE'},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -6086,7 +6086,7 @@ local TestText = "- معلومات مطور السورس : \\nn: name Dev . ["..
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = 'Klever TeaM .', url='https://t.me/B3B34'},
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url='https://t.me/XSURSE'},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -6138,7 +6138,7 @@ Text =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = 'Delete Telegram',url="https://my.telegram.org/auth?to=delete"},{text = 'Delete Bot ',url="https://t.me/LC6BOT"}},
-{{text = 'Delete Instagram',url="https://www.instagram.com/accounts/login/?next=/accounts/remove/request/permanent/"},{text = 'Delete Kleverchat',url="https://accounts.Kleverchat.com/accounts/login?continue=https%3A%2F%2Faccounts.Kleverchat.com%2Faccounts%2Fdeleteaccount"}},{{text= 'Klever TeaM .',url="t.me/B3B34"}}
+{{text = 'Delete Instagram',url="https://www.instagram.com/accounts/login/?next=/accounts/remove/request/permanent/"},{text = 'Delete Kleverchat',url="https://accounts.Kleverchat.com/accounts/login?continue=https%3A%2F%2Faccounts.Kleverchat.com%2Faccounts%2Fdeleteaccount"}},{{text= '˛ ᥊-Kᥣᥱ᥎ᥱr. .',url="t.me/XSURSE"}}
 }
 local msg_id = msg.id/2097152/0.5
 https.request("https://api.telegram.org/bot"..Token..'/sendPhoto?chat_id=' .. msg.chat_id .. '&photo=https://t.me/NNAON/474&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
@@ -6245,21 +6245,21 @@ https.request("https://api.telegram.org/bot"..Token.."/sendphoto?chat_id="..msg_
 end
 if text == 'السورس' or text == 'سورس' or text == 'ياسورس' or text == 'يا سورس' then  
 local Text =[[
-*˛ 𝗁𝖾𝗅𝗅𝗈 𝗉𝖾𝗈𝗉𝗅𝖾 𝗆𝖾 Klever TeaM .
+*˛ 𝗁𝖾𝗅𝗅𝗈 𝗉𝖾𝗈𝗉𝗅𝖾 𝗆𝖾 ˛ ᥊-Kᥣᥱ᥎ᥱr. .
 ˛ 𝗂𝗍'𝗌 𝗌𝗈𝗎𝗋𝖼𝖾 𝖽𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 𝗈𝗇𝗅ʏ .*
  — — — — — — — — —
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '< Source Channel >',url="https://t.me/B3B34"}},
-{{text = '< Channel : update |',url="https://t.me/C3C34"},
-{text = '| Tws teams >',url="https://t.me/X4X43BOT"}},
+{{text = '< Source Channel >',url="https://t.me/XSURSE"}},
+{{text = '< Channel : update |',url="https://t.me/EXP_KLEVER"},
+{text = '| Tws teams >',url="https://t.me/znvcebot"}},
 {
 {text = '< Bot YouTube > ',url="https://t.me/xvxbot"}
 },
 }
 local msg_id = msg.id/2097152/0.5
-https.request("https://api.telegram.org/bot"..Token..'/sendPhoto?chat_id=' .. msg.chat_id .. '&photo=https://t.me/B3B34&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+https.request("https://api.telegram.org/bot"..Token..'/sendPhoto?chat_id=' .. msg.chat_id .. '&photo=https://t.me/XSURSE&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 if text == "منو اني" then
 if msg.sender.user_id == tonumber(2042257789) then
@@ -6291,7 +6291,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Klever TeaM .', url = "https://t.me/B3B34"}
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url = "https://t.me/XSURSE"}
 },
 {
 {text = '❲ VIP version updates ❳', url = "https://t.me/YYYYi"}
@@ -9313,7 +9313,7 @@ local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {
 {{text =Get_Chat.title, url = GetLink}, },}}
 return LuaTele.sendText(msg_chat_id, msg_id, "˛ :  Link Group : \n["..GetLink..']', 'md', true, false, false, false, reply_markup)
 else
-local LinkGroup = LuaTele.generateChatInviteLink(msg_chat_id,'C3C34',tonumber(msg.date+86400),100,false)
+local LinkGroup = LuaTele.generateChatInviteLink(msg_chat_id,'EXP_KLEVER',tonumber(msg.date+86400),100,false)
 if LinkGroup.code == 3 then
 return LuaTele.sendText(msg_chat_id,msg_id,"˛ : لا استطيع جلب الرابط بسبب ليس لدي صلاحيه دعوه مستخدمين من خلال الرابط ","md",true)
 end
@@ -9761,7 +9761,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Klever TeaM .', url = 't.me/B3B34'}, 
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url = 't.me/XSURSE'}, 
 },
 }
 }
@@ -10422,7 +10422,7 @@ data = {
 {text = '• الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'Klever TeaM .', url='https://t.me/B3B34'},
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url='https://t.me/XSURSE'},
 },
 }
 }
@@ -10439,7 +10439,7 @@ end
 Redis:del(itsKlever.."Klever:Set:Id:Group"..msg.chat_id)
 local news = '˛ : تم مسح الايدي : '..msg.Name_Controller
 local reply_markup = LuaTele.replyMarkup{type = 'inline',data = {
-{{text = '˛ 𝗍𝖾𝖺𝗆 : 𝗉𝖺𝗏 .', url = 't.me/B3B34'}, },}}
+{{text = '˛ 𝗍𝖾𝖺𝗆 : 𝗉𝖺𝗏 .', url = 't.me/XSURSE'}, },}}
 return LuaTele.sendText(msg_chat_id, msg_id, news, 'md', false, false, false, false, reply_markup)
 end
 if text and text:match("^مسح (.*)$") and msg.reply_to_message_id == 0 then
@@ -11223,7 +11223,7 @@ data = {
 {text = '• م1 •', data = msg.sender.user_id..'/help1'},
 },
 {
-{text = 'Klever TeaM .', url = 't.me/B3B34'}, 
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url = 't.me/XSURSE'}, 
 },
 {
 {text = 'إخفاء الأمر', data = msg.sender.user_id..'/delAmr'},
@@ -11246,7 +11246,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = 'Klever TeaM .', url = 't.me/B3B34'}, 
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url = 't.me/XSURSE'}, 
 },
 {
 {text = 'إخفاء الأمر', data = msg.sender.user_id..'/delAmr'},
@@ -11269,7 +11269,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = 'Klever TeaM .', url = 't.me/B3B34'}, 
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url = 't.me/XSURSE'}, 
 },
 {
 {text = 'إخفاء الأمر', data = msg.sender.user_id..'/delAmr'},
@@ -11292,7 +11292,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = 'Klever TeaM .', url = 't.me/B3B34'}, 
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url = 't.me/XSURSE'}, 
 },
 {
 {text = 'إخفاء الأمر', data = msg.sender.user_id..'/delAmr'},
@@ -11315,7 +11315,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '˛ ??𝖾𝖺𝗆 𝗉𝖺𝗏 .', url = 't.me/B3B34'}, 
+{text = '˛ ??𝖾𝖺𝗆 𝗉𝖺𝗏 .', url = 't.me/XSURSE'}, 
 },
 {
 {text = 'إخفاء الأمر', data = msg.sender.user_id..'/delAmr'},
@@ -11408,7 +11408,7 @@ if photo.total_count > 0 then
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = NamesBots, url = 'https://t.me/B3B34'}, 
+{text = NamesBots, url = 'https://t.me/XSURSE'}, 
 },
 {
 {text = '˛ : أضفني .', url = 't.me/'..UserBot..'?startgroup=new'}, 
@@ -11439,7 +11439,7 @@ if photo.total_count > 0 then
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = NamesBots, url = 'https://t.me/B3B34'}, 
+{text = NamesBots, url = 'https://t.me/XSURSE'}, 
 },
 {
 {text = '˛ : أضفني .', url = 't.me/'..UserBot..'?startgroup=new'}, 
@@ -11453,7 +11453,7 @@ if text == "كيف الحال" then
 local NamesBot = (Redis:get(itsKlever.."Klever:Name:Bot") or "كليفير")
 local BotName = {
 "الحمد لله ونته",
-"على قول @X4X43 ع الباري ونتَ",
+"على قول @LL3MM ع الباري ونتَ",
 "انا بخير",
 }
 return LuaTele.sendText(msg_chat_id,msg_id,BotName[math.random(#BotName)],"md",true)   
@@ -12094,7 +12094,7 @@ data = {
 {text = '• ترتيب أوامر الميديا •', data = msg.sender.user_id..'/trtm@'},
 },
 {
-{text = 'Klever TeaM .', url='https://t.me/B3B34'},
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url='https://t.me/XSURSE'},
 },
 }
 }
@@ -12137,10 +12137,10 @@ data = {
 {text = '˛ : أضفني .', url = 't.me/'..UserBot..'?startgroup=new'}, 
 },
 {
-{text = '˛ : شࢪوحات السوࢪس -', url = 't.me/C3C34'},
+{text = '˛ : شࢪوحات السوࢪس -', url = 't.me/EXP_KLEVER'},
 },
 {
-{text = '˛ : سۅࢪس كليفير -', url = 't.me/B3B34'},
+{text = '˛ : سۅࢪس كليفير -', url = 't.me/XSURSE'},
 },
 }
 }
@@ -12153,10 +12153,10 @@ data = {
 {text = '˛ : أضفني .', url = 't.me/'..UserBot..'?startgroup=new'}, 
 },
 {
-{text = '˛ : شࢪوحات السوࢪس -', url = 't.me/C3C34'},
+{text = '˛ : شࢪوحات السوࢪس -', url = 't.me/EXP_KLEVER'},
 },
 {
-{text = '˛ : سۅࢪس كليفير -', url = 't.me/B3B34'},
+{text = '˛ : سۅࢪس كليفير -', url = 't.me/XSURSE'},
 },
 }
 }
@@ -12227,7 +12227,7 @@ data = {
 },
 }
 }
-return LuaTele.sendText(msg_chat_id,msg_id,'˛ : اهلا بك عزيزي المطور ', 'md', false, false, false, false, reply_markup)
+return LuaTele.sendText(msg_chat_id,msg_id,'* ˛ : *اهلا بك عزيز المتطوࢪ', ' انا اسࢪع بوت لحمايه المجموعات من التفليش *', false, false, false, false, reply_markup)
 end
 end
 
@@ -12809,7 +12809,7 @@ function CallBackLua(data) --- هذا الكالباك بي الابديت
 if data and data.luatele and data.luatele == "updateNewInlineQuery" then
 local Text = data.query 
 if Text == '' then
-local input_message_content = {message_text = " ˛ : اهلا بك\n ˛ : لارسال الهمسه اكتب يوزر البوت + الهمسه + يوزر العضو اللي راح تسويله همسه \n ˛ : مثال  @iR6bot هلا @X4X43"} 
+local input_message_content = {message_text = " ˛ : اهلا بك\n ˛ : لارسال الهمسه اكتب يوزر البوت + الهمسه + يوزر العضو اللي راح تسويله همسه \n ˛ : مثال  @iR6bot هلا @LL3MM"} 
 local resuult = {{
 type = 'article',
 id = math.random(1,64),
@@ -12817,7 +12817,7 @@ title = 'اضغط هنا لمعرفه كيفيه ارسال الهمسه',
 input_message_content = input_message_content,
 reply_markup = {
 inline_keyboard ={
-{{text ="Klever TeaM .", url= "https://t.me/B3B34"}},
+{{text ="˛ ᥊-Kᥣᥱ᥎ᥱr. .", url= "https://t.me/XSURSE"}},
 }
 },
 },
@@ -13079,7 +13079,7 @@ keyboard.inline_keyboard = {
 {text = '• ميمز', callback_data = IdUser..'/memz@'},{text = '• غنيلي', callback_data = IdUser..'/kne@'},
 },
 {
-{text = 'Klever TeaM .',url="t.me/B3B34"}
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .',url="t.me/XSURSE"}
 },
 }
 https.request("https://api.telegram.org/bot"..Token..'/sendphoto?chat_id=' .. ChatId .. '&photo=https://t.me/MoviesWaTaN/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -13126,10 +13126,10 @@ local Text ='* 𝘴𝘯𝘢𝘱 𝖲𝗈𝗎𝗋𝖼𝖾 \n — — — — — 
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '❲ S𝘰𝘶𝘳𝘤𝘦 S𝘯𝘢𝘱 ❳',url="https://t.me/B3B34"},{text = ' Updates source ⁦ᯓ',url="https://t.me/C3C34"}
+{text = '❲ S𝘰𝘶𝘳𝘤𝘦 S𝘯𝘢𝘱 ❳',url="https://t.me/XSURSE"},{text = ' Updates source ⁦ᯓ',url="https://t.me/EXP_KLEVER"}
 },
 {
-{text = '  S𝘯𝘢𝘱 ⁦ᯓ',url="https://t.me/X4X43"}
+{text = '  S𝘯𝘢𝘱 ⁦ᯓ',url="https://t.me/LL3MM"}
 },
 }
 local msg_id = Msg_id/2097152/0.5
@@ -13149,7 +13149,7 @@ keyboard.inline_keyboard = {
 {text = '˛ : مره اخرى 🔃 .', callback_data = IdUser..'/gifes@'},
 },
 {
-{text = 'Klever TeaM .',url="t.me/B3B34"}
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .',url="t.me/XSURSE"}
 },
 }
 https.request("https://api.telegram.org/bot"..Token..'/sendanimation?chat_id=' .. ChatId .. '&animation=https://t.me/https://t.me/GifWaTaN/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -13175,7 +13175,7 @@ keyboard.inline_keyboard = {
 {text = '• ميمز', callback_data = IdUser..'/memz@'},{text = '• غنيلي', callback_data = IdUser..'/kne@'},
 },
 {
-{text = 'Klever TeaM .',url="t.me/B3B34"}
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .',url="t.me/XSURSE"}
 },
 }
 local msg_id = Msg_id/2097152/0.5
@@ -13203,7 +13203,7 @@ keyboard.inline_keyboard = {
 {text = '• ميمز', callback_data = IdUser..'/memz@'},{text = '• غنيلي', callback_data = IdUser..'/kne@'},
 },
 {
-{text = 'Klever TeaM .',url="t.me/B3B34"}
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .',url="t.me/XSURSE"}
 },
 }
 local msg_id = Msg_id/2097152/0.5
@@ -13232,7 +13232,7 @@ keyboard.inline_keyboard = {
 {text = '• ميمز', callback_data = IdUser..'/memz@'},{text = '• غنيلي', callback_data = IdUser..'/kne@'},
 },
 {
-{text = 'Klever TeaM .',url="t.me/B3B34"}
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .',url="t.me/XSURSE"}
 },
 }
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. ChatId .. '&voice=https://t.me/vvvuin/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -13288,7 +13288,7 @@ keyboard.inline_keyboard = {
 {text = ': مره اخرى 🔃.', callback_data = IdUser..'/Re@'},
 },
 {
-{text = 'Klever TeaM .',url="t.me/B3B34"}
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .',url="t.me/XSURSE"}
 },
 }
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. ChatId .. '&voice=https://t.me/vvvuin/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -13307,7 +13307,7 @@ keyboard.inline_keyboard = {
 {text = ': مره اخرى 🔃.', callback_data = IdUser..'/Re1@'},
 },
 {
-{text = 'Klever TeaM .',url="t.me/B3B34"}
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .',url="t.me/XSURSE"}
 },
 }
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. ChatId .. '&voice=https://t.me/shaarKlever/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -13335,7 +13335,7 @@ keyboard.inline_keyboard = {
 {text = '• ميمز', callback_data = IdUser..'/memz@'},{text = '• غنيلي', callback_data = IdUser..'/kne@'},
 },
 {
-{text = 'Klever TeaM .',url="t.me/B3B34"}
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .',url="t.me/XSURSE"}
 },
 }
 https.request("https://api.telegram.org/bot"..Token..'/sendanimation?chat_id=' .. ChatId .. '&animation=https://t.me/GifWaTaN/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -13362,7 +13362,7 @@ keyboard.inline_keyboard = {
 {text = '• ميمز', callback_data = IdUser..'/memz@'},{text = '• غنيلي', callback_data = IdUser..'/kne@'},
 },
 {
-{text = 'Klever TeaM .',url="t.me/B3B34"}
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .',url="t.me/XSURSE"}
 },
 }
 local msg_id = Msg_id/2097152/0.5
@@ -13390,7 +13390,7 @@ keyboard.inline_keyboard = {
 {text = '• ميمز', callback_data = IdUser..'/memz@'},{text = '• غنيلي', callback_data = IdUser..'/kne@'},
 },
 {
-{text = 'Klever TeaM .',url="t.me/B3B34"}
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .',url="t.me/XSURSE"}
 },
 }
 local msg_id = Msg_id/2097152/0.5
@@ -13452,7 +13452,7 @@ keyboard.inline_keyboard = {
 {text = '• ميمز', callback_data = IdUser..'/memz@'},{text = '• غنيلي', callback_data = IdUser..'/kne@'},
 },
 {
-{text = 'Klever TeaM .',url="t.me/B3B34"}
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .',url="t.me/XSURSE"}
 },
 }
 local msg_id = Msg_id/2097152/0.5
@@ -13596,7 +13596,7 @@ Num = math.random(9,133)
 au ={
 type = "audio",
 media = "https://t.me/F_6AA/"..Num.."",
-caption = "[Ch : 𝐒𝐍𝐀𝐏 ](t.me/B3B34)\n",
+caption = "[Ch : 𝐒𝐍𝐀𝐏 ](t.me/XSURSE)\n",
 parse_mode = "Markdown"                                                                                                                                                               
 }     
 keyboard = {} 
@@ -14043,7 +14043,7 @@ local TextHelp = [[*
  — — — — — — — — —
 ˛ : لآرسال همسه معينه اتبع الخطوات 
 ˛ : استخدم معرف البوت ونوب الرساله ونوب معرف الشخص المراد ارسال الهمسه اليه : مثال 
-˛ : @iR6bot هلا @X4X43
+˛ : @iR6bot هلا @LL3MM
  — — — — — — — — —
 ˛ : ‹ الان حصريا تحشيش جديد :
  — — — — — — — — —
@@ -14124,7 +14124,7 @@ data = {
 {text = '˛ : الالعاب المتطوࢪه', data = IdUser..'/degm'}, 
 },
 {
-{text = 'Klever TeaM .', url = 't.me/B3B34'}, 
+{text = '˛ ᥊-Kᥣᥱ᥎ᥱr. .', url = 't.me/XSURSE'}, 
 },
 }
 }
